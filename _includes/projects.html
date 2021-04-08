@@ -18,18 +18,26 @@
 
   {% for project in projects.assignments %}
     <div class="item">
+		<div class="meta">
+			<div class="upper-row">
+				{% if project.link %}
+				<h3 class=job-title><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h3>
+				{% else %}
+				<h3 class=job-title>{{ project.title }}</h3>
+				{% endif %}
+				<div class="time">{{ project.time }}</div>
+			</div>
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
+			{% if project.summary %}
+			<div class="company">{{ project.summary }}</div>
+			{% endif %}
+		</div>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
+	  {% if project.details %}
+	  <div class="details">
+		{{ project.details | markdownify }}
+	  </div><!--//details-->
+	  {% endif %}
 
     </div><!--//item-->
   {% endfor %}

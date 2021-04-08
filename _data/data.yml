@@ -36,144 +36,115 @@ sidebar:
     #     level: Professional
 
     interests:
-      - item: Eating
+      - item: Eating 🍽️
         link:
 
-      - item: Activity
+      - item: Activity ⛱️
         link:
 
-      - item: Movie
+      - item: Movie 🎬
         link:
 
 career-profile:
-    title: Career Profile
+    title: 인사말
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      안녕하세요. 프론트엔드 개발자를 꿈꾸고 있는 24살 김수빈입니다.
 education:
     - degree: Computer Science
       university: University of Seoul
-      time: 2011 - 2012
+      time: 2017 - Present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Web Core Member
+      time: 2020 - 2021
+      company: Developer Student Community
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        DSC는 Google Developers 그룹에 속해있는 대학생 개발자 커뮤니티입니다.
+        해당 커뮤니티에서 저는 아래의 활동을 핵심 활동으로 진행했습니다.
+          - [팀블로그 개발, 관리](https://dsc-university-of-seoul.github.io/)
+          - 웹 팀 운영
+          - 프로젝트 진행
 projects:
-    title: Projects
+    title: Projects # 프로젝트 + 설명만 모은 사이트 만들기
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: 세살버릇 여든까지
+        time: 2021.3 - Present
+        summary: 1일 1챌린지를 돕는 웹 서비스
+        details: |
+          1일 1커밋을 하다가 고안한 프로젝트로, 풀스택을 담당했습니다.
+          처음으로 프로젝트의 초기 설정을 했습니다.
+          React, Material-UI, MongoDB, nodejs, express를 이용했습니다.
+          저는 프론트의 핵심 기능과, github 크롤링과 데이터 가공, 팀 리딩을 담당했습니다.
+          처음으로 state관리 라이브러리, mobx 도입을 시도했습니다.
+      - title: 데이터베이스 설계
+        time: 2021.3 - Present
+        summary: 영화관 데이터베이스 설계
+        details: |
+          데이터베이스설계 전공 시간에 진행한 프로젝트입니다.
+          Oracle과 Erwin으로 데이터베이스를 설계하고 React와 Spring으로 프론트와 백을 구축했습니다.
+      - title: 날개를 달다
+        time: 2021.3 - Present
+        summary: 양심 생리대함 관리 어플리케이션
+        details: |
+          컴퓨터과학종합설계 전공 시간에 진행한 프로젝트로, 프론트엔드를 담당했습니다.
+          교내 봉사동아리인 날개와 협업을 하여 날개 팀의 활동으로 인정 받았습니다.
+          ReactNative와 TypeScript, contextAPI+MVVM 모델을 이용했습니다.
+          state 관리 Model에 대해서 차차 공부해가서 이전보다는 MVVM구조를 이용한 state관리가 수월해짐을 느꼈습니다.
+          처음으로 배포, 출시까지 완료한 프로젝트가 될 것입니다.
+      - title: BDCS
+        time: 2021.1 - Present
+        summary: 반려동물과 함께할 수 있는 장소를 제공하는 웹 서비스
+        details: |
+          마음 맞는 동기들과 타 학교의 웹 디자이너님과 협업한 프로젝트로, 프론트엔드를 담당했습니다.
+          React와 TypeScript, Material-UI, ContextAPI+MVVM 모델을 이용했습니다.
+          React를 시작한지 얼마 안 된 상태에서 갑작스럽게 TypeScript를 도입하여, 이해해서 사용하기 보다는 다른 팀원의 코드와 유사하게 작성했습니다.
+          state 관리를 위한 모델을 팀원이 구축하여서, 배우기 급급했습니다.
+      - title: Raccoon
+        link: https://github.com/DSC-University-of-Seoul/raccoon-frontend
+        time: 2020.12 - 2021.2
+        summary: 실시간 퀴즈 웹 서비스 Kahoot을 모티브로 한 사이트
+        details: |
+          DSC에서 진행했던 프로젝트로, 프론트엔드를 담당했습니다.
+          React와 Material-UI로 방 목록과 방 생성 페이지를 담당했습니다.
+          처음으로 진행했던 프로젝트였고, 이 때 state 관리의 미숙함을 느끼게 됩니다.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: HTML & CSS
+        level: 80%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: React
+        level: 50%
 
-      - name: Angular
-        level: 98%
+      - name: TypeScript
+        level: 35%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Nodejs
+        level: 20%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Java
+        level: 20%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Photoshop
+        level: 20%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: mobx
+        level: 0%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
