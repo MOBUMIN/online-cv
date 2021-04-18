@@ -69,6 +69,7 @@ projects:
     intro: >
     assignments:
       - title: 세살버릇 여든까지
+        git-link: https://github.com/ALsolve
         time: 2021.3 - Present
         summary: 1일 1챌린지를 돕는 웹 서비스
         details: |
@@ -78,12 +79,15 @@ projects:
           저는 프론트의 핵심 기능과, github 크롤링과 데이터 가공, 팀 리딩을 담당했습니다.
           처음으로 state관리 라이브러리, mobx 도입을 시도했습니다.
       - title: 데이터베이스 설계
+        git-link: https://github.com/MOBUMIN/2021_1_DB
+        site-link: https://www.figma.com/proto/3X9JXoD5yfknv3D2J4HWKF/Untitled?node-id=11%3A145&scaling=min-zoom&page-id=0%3A1
         time: 2021.3 - Present
         summary: 영화관 데이터베이스 설계
         details: |
           데이터베이스설계 전공 시간에 진행한 프로젝트입니다.
           Oracle과 Erwin으로 데이터베이스를 설계하고 React와 Spring으로 프론트와 백을 구축했습니다.
       - title: 날개를 달다
+        git-link: https://github.com/UOS-SamSam
         time: 2021.3 - Present
         summary: 양심 생리대함 관리 어플리케이션
         details: |
@@ -93,6 +97,7 @@ projects:
           state 관리 Model에 대해서 차차 공부해가서 이전보다는 MVVM구조를 이용한 state관리가 수월해짐을 느꼈습니다.
           처음으로 배포, 출시까지 완료한 프로젝트가 될 것입니다.
       - title: BDCS
+        git-link: https://github.com/qkqkdh/qkenrl
         time: 2021.1 - Present
         summary: 반려동물과 함께할 수 있는 장소를 제공하는 웹 서비스
         details: |
@@ -101,7 +106,7 @@ projects:
           React를 시작한지 얼마 안 된 상태에서 갑작스럽게 TypeScript를 도입하여, 이해해서 사용하기 보다는 다른 팀원의 코드와 유사하게 작성했습니다.
           state 관리를 위한 모델을 팀원이 구축하여서, 배우기 급급했습니다.
       - title: Raccoon
-        link: https://github.com/DSC-University-of-Seoul/raccoon-frontend
+        git-link: https://github.com/MOBUMIN/raccoon-frontend
         time: 2020.12 - 2021.2
         summary: 실시간 퀴즈 웹 서비스 Kahoot을 모티브로 한 사이트
         details: |

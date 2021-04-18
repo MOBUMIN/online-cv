@@ -20,11 +20,7 @@
     <div class="item">
 		<div class="meta">
 			<div class="upper-row">
-				{% if project.link %}
-				<h3 class=job-title><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h3>
-				{% else %}
 				<h3 class=job-title>{{ project.title }}</h3>
-				{% endif %}
 				<div class="time">{{ project.time }}</div>
 			</div>
 
@@ -37,6 +33,13 @@
 	  <div class="details">
 		{{ project.details | markdownify }}
 	  </div><!--//details-->
+	  {% endif %}
+
+	  {% if project.site-link %}
+	  <a href="{{ project.site-link }}" target="_blank">사이트</a>
+	  {% endif %}
+	  {% if project.git-link %}
+	  <a href="{{ project.git-link }}" target="_blank">깃허브</a>
 	  {% endif %}
 
     </div><!--//item-->
