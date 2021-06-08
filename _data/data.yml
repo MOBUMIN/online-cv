@@ -65,7 +65,7 @@ experiences:
           - 웹 팀 운영
           - 프로젝트 진행
 projects:
-    title: Projects # 프로젝트 + 설명만 모은 사이트 만들기
+    title: Projects # 프로젝트 + 설명만 모은 사이트 만들기 혹은 자세히보기 기능 구현
     intro: >
     assignments:
       - title: 세살버릇 여든까지
@@ -80,7 +80,7 @@ projects:
           처음으로 state관리 라이브러리, mobx 도입을 시도했습니다.
       - title: 데이터베이스 설계
         git-link: https://github.com/MOBUMIN/2021_1_DB
-        site-link: https://www.figma.com/proto/3X9JXoD5yfknv3D2J4HWKF/Untitled?node-id=11%3A145&scaling=min-zoom&page-id=0%3A1
+        site-link: https://2021-1-db.vercel.app/
         time: 2021.3 - Present
         summary: 영화관 데이터베이스 설계
         details: |
@@ -88,6 +88,7 @@ projects:
           Oracle과 Erwin으로 데이터베이스를 설계하고 React와 Spring으로 프론트와 백을 구축했습니다.
       - title: 날개를 달다
         git-link: https://github.com/UOS-SamSam
+        site-link: https://play.google.com/store/apps/details?id=com.uoswing
         time: 2021.3 - Present
         summary: 양심 생리대함 관리 어플리케이션
         details: |
