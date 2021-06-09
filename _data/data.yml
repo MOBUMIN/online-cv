@@ -46,7 +46,7 @@ sidebar:
         link:
 
 career-profile:
-    title: 인사말
+    title: Introduction
     summary: |
       안녕하세요. 프론트엔드 개발자를 꿈꾸고 있는 24살 김수빈입니다.
 education:
@@ -78,14 +78,6 @@ projects:
           React, Material-UI, MongoDB, nodejs, express를 이용했습니다.
           저는 프론트의 핵심 기능과, github 크롤링과 데이터 가공, 팀 리딩을 담당했습니다.
           처음으로 state관리 라이브러리, mobx 도입을 시도했습니다.
-      - title: 데이터베이스 설계
-        git-link: https://github.com/MOBUMIN/2021_1_DB
-        site-link: https://2021-1-db.vercel.app/
-        time: 2021.3 - Present
-        summary: 영화관 데이터베이스 설계
-        details: |
-          데이터베이스설계 전공 시간에 진행한 프로젝트입니다.
-          Oracle과 Erwin으로 데이터베이스를 설계하고 React와 Spring으로 프론트와 백을 구축했습니다.
       - title: 날개를 달다
         git-link: https://github.com/UOS-SamSam
         site-link: https://play.google.com/store/apps/details?id=com.uoswing
@@ -106,10 +98,22 @@ projects:
           React와 TypeScript, Material-UI, ContextAPI+MVVM 모델을 이용했습니다.
           React를 시작한지 얼마 안 된 상태에서 갑작스럽게 TypeScript를 도입하여, 이해해서 사용하기 보다는 다른 팀원의 코드와 유사하게 작성했습니다.
           state 관리를 위한 모델을 팀원이 구축하여서, 배우기 급급했습니다.
+      - title: 데이터베이스 설계
+        git-link: https://github.com/MOBUMIN/2021_1_DB
+        site-link: https://2021-1-db.vercel.app/
+        time: 2021.3 - 6
+        summary: 영화관 데이터베이스 설계
+        tag: [React, Scss, Vercel, Nodejs, Expressjs, OracleDB, ERWin]
+        details: |
+          데이터베이스설계 전공 시간에 진행한 프로젝트입니다.
+          Oracle과 Erwin으로 데이터베이스를 직접 설계했습니다.
+          React로 프론트를 개발하였습니다.
+          백엔드는 Nodejs와 Expressjs로 개발을 하였고, MVC 모델을 사용했습니다.
       - title: Raccoon
         git-link: https://github.com/MOBUMIN/raccoon-frontend
         time: 2020.12 - 2021.2
         summary: 실시간 퀴즈 웹 서비스 Kahoot을 모티브로 한 사이트
+        tag: [React, Scss]
         details: |
           DSC에서 진행했던 프로젝트로, 프론트엔드를 담당했습니다.
           React와 Material-UI로 방 목록과 방 생성 페이지를 담당했습니다.
