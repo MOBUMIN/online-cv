@@ -98,6 +98,12 @@ projects:
           React와 TypeScript, Material-UI, ContextAPI+MVVM 모델을 이용했습니다.
           React를 시작한지 얼마 안 된 상태에서 갑작스럽게 TypeScript를 도입하여, 이해해서 사용하기 보다는 다른 팀원의 코드와 유사하게 작성했습니다.
           state 관리를 위한 모델을 팀원이 구축하여서, 배우기 급급했습니다.
+      - title: 소설이쥬아
+        site-link: https://mobumin.github.io/htmlListWeb/webdesign/novellove.html
+        time: 2021.5 - 2021.6
+        summary: 웹소설 플랫폼 디자인
+        details: |
+          웹소설 플랫폼 사이트의 웹 디자인을 포토샵으로 완성했습니다.
       - title: 데이터베이스 설계
         git-link: https://github.com/MOBUMIN/2021_1_DB
         site-link: https://2021-1-db.vercel.app/
@@ -109,6 +115,8 @@ projects:
           Oracle과 Erwin으로 데이터베이스를 직접 설계했습니다.
           React로 프론트를 개발하였습니다.
           백엔드는 Nodejs와 Expressjs로 개발을 하였고, MVC 모델을 사용했습니다.
+          제작한 프론트 : 메인페이지, 현재상영작, 상영예정작, 로그인, 회원가입, 출입명부작성, 영화상세페이지+리뷰페이지, 예매하기 1,3,4 페이지, 출입명부관리, 상영관 관리, 상영일정관리
+          제작한 백엔드 : 로그인, 회원가입, 리뷰 조회수정삭제, 출입명부 조회, 메인페이지 영화조회, 할인목록 조회
       - title: Raccoon
         git-link: https://github.com/MOBUMIN/raccoon-frontend
         time: 2020.12 - 2021.2
