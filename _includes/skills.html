@@ -1,7 +1,7 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
 <section class="skills-section section">
-
+<a name=skills></a>
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -11,21 +11,70 @@
   </h2>
 
   <div class="skillset">
-
-    {% for skill in skills.toolset %}
-    <div class="item">
-
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
-    {% endfor %}
+	<p class="additional-sub-title" id="use">#I can use</p>
+	<div class="tag-con" id="use-con">
+	  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>&nbsp 
+	  <img src="https://img.shields.io/badge/ReactNative-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>&nbsp 
+	  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/Jekyll-CC0000?style=flat-square&logo=Jekyll&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=Heroku&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=Vercel&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=AdobePhotoshop&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/></a>&nbsp
+	</div>
+  
+	<p class="additional-sub-title" id="unskilled" style="margin-top: 10px">#I have experienced but unskilled</p>
+	<div class="tag-con" id="unskilled-con">
+	  <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp 
+	  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/></a>&nbsp
+	</div>
+  
+	<p class="additional-sub-title" id="study" style="margin-top: 10px">#I'm going to study</p>
+	<div class="tag-con" id="study-con">
+	  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/></a>&nbsp 
+	  <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/></a>&nbsp
+	  <img src="https://img.shields.io/badge/AngularJS-E23237?style=flat-square&logo=AngularJS&logoColor=white"/></a>&nbsp
+	</div>
 
   </div>
 
 </section><!--//skills-section-->
 {% endif %}
+
+<script type="text/javascript">
+	var use = document.getElementById('use');
+	var useCon = document.getElementById('use-con')
+	use.addEventListener('click', function(){
+		if(useCon.style.display === 'none'){
+			useCon.className = 'tag-con-animate';
+			useCon.style.display = 'block';
+		}
+		else useCon.style.display = 'none';
+	})
+
+	var unskilled = document.getElementById('unskilled');
+	var unskilledCon = document.getElementById('unskilled-con')
+	unskilled.addEventListener('click', function(){
+		if(unskilledCon.style.display === 'none'){
+			unskilledCon.className = 'tag-con-animate';
+			unskilledCon.style.display = 'block';
+		}
+		else unskilledCon.style.display = 'none';
+	})
+
+	var study = document.getElementById('study');
+	var studyCon = document.getElementById('study-con')
+	study.addEventListener('click', function(){
+		if(studyCon.style.display === 'none'){
+			studyCon.className = 'tag-con-animate';
+			studyCon.style.display = 'block';
+		}
+		else studyCon.style.display = 'none';
+	})
+</script>

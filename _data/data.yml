@@ -48,7 +48,7 @@ sidebar:
 career-profile:
     title: Introduction
     summary: |
-      안녕하세요. 프론트엔드 개발자를 꿈꾸고 있는 24살 김수빈입니다.
+      안녕하세요. 웹 개발자 24살 김수빈입니다.
 education:
     - degree: Computer Science
       university: University of Seoul
@@ -61,7 +61,7 @@ experiences:
       details: |
         DSC는 Google Developers 그룹에 속해있는 대학생 개발자 커뮤니티입니다.
         해당 커뮤니티에서 저는 아래의 활동을 핵심 활동으로 진행했습니다.
-          - [팀블로그 개발, 관리](https://dsc-university-of-seoul.github.io/)
+          - [팀블로그 개발, 관리](https://dsc-university-of-seoul.github.io/){:target="_blank"}
           - 웹 팀 운영
           - 프로젝트 진행
 projects:
@@ -115,6 +115,7 @@ projects:
           Oracle과 Erwin으로 데이터베이스를 직접 설계했습니다.
           React로 프론트를 개발하였습니다.
           백엔드는 Nodejs와 Expressjs로 개발을 하였고, MVC 모델을 사용했습니다.
+          사이트 디자인.
           제작한 프론트 : 메인페이지, 현재상영작, 상영예정작, 로그인, 회원가입, 출입명부작성, 영화상세페이지+리뷰페이지, 예매하기 1,3,4 페이지, 출입명부관리, 상영관 관리, 상영일정관리
           제작한 백엔드 : 로그인, 회원가입, 리뷰 조회수정삭제, 출입명부 조회, 메인페이지 영화조회, 할인목록 조회
       - title: Raccoon
@@ -164,5 +165,5 @@ skills:
       - name: mobx
         level: 0%
 
-# footer: >
-#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: >
+     <a href="#">TOP</a>
