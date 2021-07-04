@@ -73,37 +73,50 @@ projects:
         time: 2021.3 - Present
         summary: 1일 1챌린지를 돕는 웹 서비스
         details: |
-          1일 1커밋을 하다가 고안한 프로젝트로, 풀스택을 담당했습니다.
-          처음으로 프로젝트의 초기 설정을 했습니다.
-          React, Material-UI, MongoDB, nodejs, express를 이용했습니다.
-          저는 프론트의 핵심 기능과, github 크롤링과 데이터 가공, 팀 리딩을 담당했습니다.
-          처음으로 state관리 라이브러리, mobx 도입을 시도했습니다.
+          1일 1커밋을 하다가 고안한 프로젝트
+
+          담당 : FE, BE, PM, LEADING
+
+          페이지 : 챌린지 디테일
+
+          api : 깃허브 잔디 정보 제공(크롤링), 수정, 삭제
+
+          사용 : React, Material-UI, MongoDB, nodejs, express, mongoDB, heroku, eslint, cheerio
       - title: 날개를 달다
         git-link: https://github.com/UOS-SamSam
         site-link: https://play.google.com/store/apps/details?id=com.uoswing
         time: 2021.3 - Present
         summary: 양심 생리대함 관리 어플리케이션
         details: |
-          컴퓨터과학종합설계 전공 시간에 진행한 프로젝트로, 프론트엔드를 담당했습니다.
-          교내 봉사동아리인 날개와 협업을 하여 날개 팀의 활동으로 인정 받았습니다.
-          ReactNative와 TypeScript, contextAPI+MVVM 모델을 이용했습니다.
-          state 관리 Model에 대해서 차차 공부해가서 이전보다는 MVVM구조를 이용한 state관리가 수월해짐을 느꼈습니다.
-          처음으로 배포, 출시까지 완료한 프로젝트가 될 것입니다.
+          컴퓨터과학종합설계 전공 시간에 진행한 프로젝트
+
+          담당 : FE
+
+          페이지 : 생리대함 관리, 신고하기 모달(관리자, 이용자), 생리대함목록 모달
+
+          사용 : ReactNative, TypeScript, ContextAPI+MVVM
       - title: BDCS
         git-link: https://github.com/qkqkdh/qkenrl
         time: 2021.1 - Present
         summary: 반려동물과 함께할 수 있는 장소를 제공하는 웹 서비스
         details: |
-          마음 맞는 동기들과 타 학교의 웹 디자이너님과 협업한 프로젝트로, 프론트엔드를 담당했습니다.
-          React와 TypeScript, Material-UI, ContextAPI+MVVM 모델을 이용했습니다.
-          React를 시작한지 얼마 안 된 상태에서 갑작스럽게 TypeScript를 도입하여, 이해해서 사용하기 보다는 다른 팀원의 코드와 유사하게 작성했습니다.
-          state 관리를 위한 모델을 팀원이 구축하여서, 배우기 급급했습니다.
+          마음 맞는 동기들과 타 대학의 웹 디자이너님과 협업한 프로젝트
+
+          담당 : FE
+
+          페이지 : 로그인 모달, 회원가입 모달, 장소 제안 모달
+
+          사용 : React, TypeScript, Material-UI, ContextAPI+MVVM, eslint
       - title: 소설이쥬아
         site-link: https://mobumin.github.io/htmlListWeb/webdesign/novellove.html
         time: 2021.5 - 2021.6
         summary: 웹소설 플랫폼 디자인
         details: |
-          웹소설 플랫폼 사이트의 웹 디자인을 포토샵으로 완성했습니다.
+          웹디자인 강의 결과 사이트
+
+          담당 : WEB DESIGNER
+
+          사용 : Photoshop
       - title: 데이터베이스 설계
         git-link: https://github.com/MOBUMIN/2021_1_DB
         site-link: https://2021-1-db.vercel.app/
@@ -111,22 +124,28 @@ projects:
         summary: 영화관 데이터베이스 설계
         tag: [React, Scss, Vercel, Nodejs, Expressjs, OracleDB, ERWin]
         details: |
-          데이터베이스설계 전공 시간에 진행한 프로젝트입니다.
-          Oracle과 Erwin으로 데이터베이스를 직접 설계했습니다.
-          React로 프론트를 개발하였습니다.
-          백엔드는 Nodejs와 Expressjs로 개발을 하였고, MVC 모델을 사용했습니다.
-          사이트 디자인.
-          제작한 프론트 : 메인페이지, 현재상영작, 상영예정작, 로그인, 회원가입, 출입명부작성, 영화상세페이지+리뷰페이지, 예매하기 1,3,4 페이지, 출입명부관리, 상영관 관리, 상영일정관리
-          제작한 백엔드 : 로그인, 회원가입, 리뷰 조회수정삭제, 출입명부 조회, 메인페이지 영화조회, 할인목록 조회
+          데이터베이스설계 전공 시간에 진행한 프로젝트
+
+          담당 : FE, BE, MANAGER
+
+          페이지 : 메인페이지, 현재상영작, 상영예정작, 로그인, 회원가입, 출입명부작성, 영화상세, 리뷰, 예매하기 1,3,4 단계, 출입명부관리, 상영관 관리, 상영일정관리
+
+          api : 로그인, 회원가입, 리뷰 조회수정삭제, 출입명부 조회, 메인페이지 영화조회, 할인목록 조회
+
+          사용 : Figma, React, Nodejs, Express, Oracle, MVC model, Vercel
       - title: Raccoon
         git-link: https://github.com/MOBUMIN/raccoon-frontend
         time: 2020.12 - 2021.2
         summary: 실시간 퀴즈 웹 서비스 Kahoot을 모티브로 한 사이트
         tag: [React, Scss]
         details: |
-          DSC에서 진행했던 프로젝트로, 프론트엔드를 담당했습니다.
-          React와 Material-UI로 방 목록과 방 생성 페이지를 담당했습니다.
-          처음으로 진행했던 프로젝트였고, 이 때 state 관리의 미숙함을 느끼게 됩니다.
+          DSC에서 진행했던 프로젝트, 생애 첫 프로젝트
+
+          담당 : FE
+
+          페이지 : 방 목록, 방 생성
+
+          사용 : React, Material-UI, Figma
 
 # publications:
 #     title: Publications
