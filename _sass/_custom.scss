@@ -48,17 +48,10 @@
 }
 
 .pj-item {
-	border: #4CAC9D 3px solid;
+	border: #4CAC9D 2px solid;
     border-radius: 5px;
     padding: 10px;
 	transition: all .3s;
 	// -webkit-transform: scaleX(.3);
  	//  transform: scaleX(.3);
-}
-
-.pj-item:hover{
-	-webkit-transform: scale(1.1, 1.1);
-	transform: scale(1.1, 1.1);
-	transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
-	transition: transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity
 }
