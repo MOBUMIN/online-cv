@@ -48,13 +48,18 @@ sidebar:
 career-profile:
     title: Introduction
     summary: |
-      안녕하세요. 웹 개발자 24살 김수빈입니다.
+      안녕하세요. 웹 개발자 김수빈입니다. 작년보다 성장한 개발자가 되는 것이 목표입니다.
 education:
     - degree: Computer Science
       university: University of Seoul
       time: 2017 - Present
       details: |
 experiences:
+    - role: ICT Intern
+      time: 2021.9 - 
+      company: Goorm
+      details: |
+        구름에서 인턴으로 일했습니다.
     - role: Web Core Member
       time: 2020 - 2021
       company: Developer Student Club
